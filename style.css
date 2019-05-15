@@ -1,0 +1,99 @@
+
+
+body{
+background-color: #ffeaa5;
+font-family: 1500;
+color: #40a798
+font-size: 10px;
+line-height: 2
+}
+
+h1 {
+  color: #f5587b;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+p{
+  color: #f5587b;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 25px;
+  font-style: italic;
+}
+
+h2{
+  color: #ff8246;
+  font-size: 25px;
+}
+
+h3{
+  color: #373a6d;
+  font-size: 25px;
+}
+
+h4{
+  color: #373a6d;
+  font-size: 25px;
+  text-align: right;
+}
+a{
+font-size: 85px;
+}
+
+.card{
+background: #ebefd0;
+width: 500px;
+margin: 0 auto;
+text-align: center;
+padding: 20px;
+margin: 50px 20px;
+box-shadow: 25px 25px 25px white;
+border-radius: 25px;
+}
+
+.card-blue{
+  color: blue;
+  background: #ebefd0;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  margin: 50px 20px;
+  box-shadow: 25px 25px 25px white;
+  border-radius: 25px;
+}
+.container{
+width: 500px;
+margin: 0 auto;
+}
+
+.img-adriana {
+border-radius: 50%;
+width: 300px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 2px ;
+  margin: 0;
+  width: 19%;
+}
+
+.buttons{
+  color: blue;
+  background: #ebefd0;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px;
+  margin: 50px 20px;
+  box-shadow: 15px 15px 15px white;
+  border-radius: 25px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
